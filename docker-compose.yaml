@@ -1,0 +1,7 @@
+version: "2"
+services:
+  node:
+    image: gremlinprocessingengine
+    restart: "no"
+    ports:
+      - "10000:10000"
